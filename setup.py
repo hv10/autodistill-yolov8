@@ -21,7 +21,7 @@ setuptools.setup(
     url="https://github.com/autodistill/autodistill-yolov8",
     install_requires=[
         "autodistill",
-        "ultralytics==8.0.81",
+        "ultralytics<9",
         "torch"
     ],
     packages=find_packages(exclude=("tests",)),
